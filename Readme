@@ -1,0 +1,81 @@
+# ChatMe - Chat Application
+
+Welcome to **ChatMe**, a real-time chat application built with the **MERN** stack (MongoDB, Express, React, Node.js) and **Socket.IO** for real-time communication.
+
+## 🚀 Features
+- **Real-time Communication**: Powered by **Socket.IO** for instant messaging.
+- **User Authentication**: Secure user sign-up and sign-in.
+- **Chat Rooms**: Create or join chat rooms to communicate with others.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+
+## 🛠️ Prerequisites
+Before you begin, ensure you have met the following requirements:
+- **Node.js** (v16 or higher)
+- **npm** (Node Package Manager)
+- **MongoDB**
+
+## 🌟 Technologies Used
+
+### Frontend
+1. **React.js**: For building the user interface.
+2. **Tailwind CSS**: For styling the frontend components.
+3. **React Router**: For client-side routing.
+4. **Axios**: For making HTTP requests to the backend.
+5. **Socket.IO Client**: For real-time communication.
+
+### Backend
+1. **Node.js**: For running the server-side JavaScript.
+2. **Express.js**: For building the backend RESTful API.
+3. **MongoDB**: For database management.
+4. **Mongoose**: For MongoDB object modeling.
+5. **JWT**: For secure user authentication.
+6. **Socket.IO**: For handling real-time communication.
+7. **JavaScript**: For both frontend and backend logic.
+8. **npm**: For managing dependencies and scripts.
+
+### ⚡ Socket.IO Events
+
+Socket.IO is used for real-time messaging and event handling. Some of the key events include:
+
+- **`connection`**: When a user connects to the server.
+- **`joinRoom`**: When a user joins a chat room.
+- **`message`**: Sending and receiving messages in real-time.
+- **`disconnect`**: When a user disconnects from the server.
+
+### 📡 API Details
+
+#### REST APIs
+The backend provides several REST APIs for interacting with user and chat room data. Some of the key endpoints include:
+
+- **POST /api/auth/signup**: Sign up a new user.
+- **POST /api/auth/login**: Log in a user.
+- **GET /api/rooms**: Get a list of all chat rooms.
+- **POST /api/rooms**: Create a new chat room.
+
+## 🛠️ Installation Guide
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ChatMe.git
+cd ChatMe
+
+2. Navigate to the Frontend and Backend Folders
+cd backend
+cd frontend
+
+3. Install npm Packages(need to install bouth files Backend and Frontend)
+npm install
+
+4. Create .env File
+
+PORT=your_port_number
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+5. Start the Backend Server
+Backend - npm start
+Frontend - npm run dev
+
+
+
